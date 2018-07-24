@@ -6,5 +6,5 @@
 number = 15
 
 if number%3 == 0
-  puts "fizz"
+  puts "fizzbuzz"
 end
