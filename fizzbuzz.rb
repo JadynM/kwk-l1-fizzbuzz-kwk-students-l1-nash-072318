@@ -2,19 +2,12 @@
 #when divisable by 5 buzz
 #when divisable by 15 fizzbuzz
 
-number = 3
+number = 30
 
-if number%
-
-
-
-
-number = 15
-
-else number%3 == 0
-  puts "fizz"
-elsif number%5 == 0
-  puts "buzz"
-if number%3 == 0
+if number%15 == 0 
   puts "fizzbuzz"
+elsif number%5 == 0 
+ puts "buzz"
+else number%3 == 0 
+  puts "fizz"
 end
