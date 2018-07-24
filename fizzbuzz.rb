@@ -9,7 +9,7 @@ if number%
 
 
 
-number = 3
+number = 15
 
 if number%3 == 0
   puts "fizzbuzz"
