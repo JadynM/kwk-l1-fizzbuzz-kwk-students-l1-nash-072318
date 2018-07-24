@@ -17,4 +17,5 @@ elsif number%5 == 0
   puts "buzz"
 else number%3 == 0
   puts "fizz"
+
 end
